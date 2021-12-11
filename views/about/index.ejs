@@ -1,0 +1,14 @@
+<!-- Template variables -->
+<% const title = 'About' %> <% const style = '/styles/about.css' %> <% const activePage = '/about' %>
+
+<html lang="en">
+    <%- include("../partials/head.ejs", {title, style}) %>
+
+    <body>
+        <%- include("../partials/nav.ejs", {activePage}) %>
+
+        <div class="not-found content"><%=title %></div>
+
+        <%- include("../partials/footer.ejs") %>
+    </body>
+</html>
