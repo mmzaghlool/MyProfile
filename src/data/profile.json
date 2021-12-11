@@ -1,0 +1,53 @@
+{
+    "image": "https://avatars.githubusercontent.com/u/25058369?v=4",
+    "name": "Mostafa Mahmoud",
+    "title": "Software Developer",
+    "overview": "Hi there 👋 I'm Mostafa Mahmoud, Computer engineer, Developer, Entrepreneur, Co-Founder, and CTO. <br /> <br />I've coding for more than 3 years.<br /><br />Currently, I am working with curawella as a software team leader trying to close the gap between the doctors, patients, and pharmaceutical companies.<br /><br />Previously, I worked for multiple companies such as Nqraa 'Creative Click' as a cross-platform mobile developer on the QMS of Al-Madina Al-Monawara, and multiple freelancing projects such as ELMahaily lawyer, and Chicken Corner",
+    "cv": "",
+    "languages": [
+        {
+            "title": "JavaScript",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+        },
+        {
+            "title": "TypeScript",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+        },
+        {
+            "title": "React",
+            "image": "https://raw.githubusercontent.com/rexxars/react-hexagon/master/logo/react-hexagon.png"
+        },
+        {
+            "title": "NodeJS",
+            "image": "https://the-guild.dev/blog-assets/nodejs-esm/nodejs_logo.png"
+        },
+        {
+            "title": "WebRtc",
+            "image": "https://sdtimes.com/wp-content/uploads/2017/11/webrtc.png"
+        },
+        {
+            "title": "Firebase",
+            "image": "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_502,h_518/https://keytotech.com/wp-content/uploads/2019/05/firebase.png"
+        },
+        {
+            "title": "MySql",
+            "image": "https://www.elearningworld.org/wp-content/uploads/2019/04/MySQL.svg.png"
+        },
+        {
+            "title": "AWS",
+            "image": "https://cloudhedge.io/wp-content/uploads/2017/11/aws.png"
+        },
+        {
+            "title": "Elastic Search",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Elasticsearch_logo.svg/800px-Elasticsearch_logo.svg.png"
+        },
+        {
+            "title": "Android studio",
+            "image": "https://www.pngkit.com/png/full/259-2592742_clip-art-free-mobile-app-development-transprent-png.png"
+        },
+        {
+            "title": "XCode",
+            "image": "https://developer.apple.com/design/human-interface-guidelines/macos/images/app-icon-realistic-materials_2x.png"
+        }
+    ]
+}

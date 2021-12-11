@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Email",
+        "image": "https://cdn.iconscout.com/icon/free/png-256/gmail-2981844-2476484.png",
+        "link": "mailto:mmzaghlool52@gmail.com"
+    },
+    {
+        "title": "Github",
+        "image": "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
+        "link": "https://github.com/mmzaghlool"
+    },
+    {
+        "title": "LinkedIn",
+        "image": "https://icon-library.com/images/linkedin-icon-png-transparent-background/linkedin-icon-png-transparent-background-15.jpg",
+        "link": "https://www.linkedin.com/in/mmzaghlool/"
+    },
+    {
+        "title": "Npm",
+        "image": "https://www.tomsquest.com/img/posts/2018-10-02-better-npm-ing/npm_logo.png",
+        "link": "https://www.npmjs.com/~mmzaghlool"
+    },
+    {
+        "title": "Youtube",
+        "image": "https://ricardoreadingmouse.com.au/wp-content/uploads/2018/04/youtube.png",
+        "link": "https://www.youtube.com/channel/UCb93KBjFv6rPdB-cggADtig"
+    }
+]
