@@ -1,13 +1,14 @@
+<!-- Template variables -->
+<% const title = 'Page Not Found' %> <% const style = '/styles/nav.css' %><% const activePage = '/404' %>
+
 <html lang="en">
-<%- include("./partials/head.ejs") %>
+    <%- include("./partials/head.ejs", {title, style}) %>
 
-<body>
-  <%- include("./partials/nav.ejs") %>
+    <body>
+        <%- include("./partials/nav.ejs",{activePage}) %>
 
-  <div class="not-found content">
-    OOPS, page not found :)
-  </div>
+        <div class="not-found content">OOPS, page not found :)</div>
 
-  <%- include("./partials/footer.ejs") %>
-</body>
+        <%- include("./partials/footer.ejs") %>
+    </body>
 </html>
