@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     margin-bottom: 60px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     text-transform: uppercase;
 }
 nav ul {
@@ -20,11 +20,12 @@ nav h1 {
 }
 nav p,
 nav a {
-    color: #777;
+    color: #333;
     font-weight: 300;
 }
 .title a {
     color: black;
+    display: none;
 }
 footer {
     color: #777;
