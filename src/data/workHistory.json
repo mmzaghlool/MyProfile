@@ -1,19 +1,132 @@
 [
     {
-        "title": "",
-        "logo": "",
-        "position": "",
+        "title": "CURAWELLA",
+        "logo": "https://www.curawella.com/logo.png",
+        "link": "https://www.curawella.com",
+        "position": "Co-Founder and CTO",
+        "from": "August 2018",
+        "to": "PRESENT",
+        "overview": "Digitizing healthcare, That's our mission; Curawella is an online healthcare company providing software solutions for doctors, clinics, hospitals, and pharmaceutical companies. Filling the gap between the healthcare providers and the patients by creating an integrated comprehensive digital system that contributes to digitizing the patient’s journey, starting from presenting him to the physician in the specialized unit and creating a complete electronic medical record",
+        "projects": [
+            {
+                "title": "VCliniQ",
+                "image": "https://www.vcliniq.app/landigPage/VCWide.png",
+                "overview": "Create your own personalized virtual clinic now <br/> You can now choose whether to have your mobile app or website or both personalized especially for you with your name and logo.",
+                "links": [
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/VCWide.png",
+                        "link": "https://www.vcliniq.app"
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Google_Play_Store_badge_EN.png",
+                        "link": "https://play.google.com/store/apps/details?id=com.curawella.clinic"
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Download_on_the_App_Store_Badge.png",
+                        "link": "https://apps.apple.com/us/app/vcliniq/id1481474496"
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "image": "",
+                "overview": "",
+                "links": [
+                    {
+                        "image": "",
+                        "link": ""
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Google_Play_Store_badge_EN.png",
+                        "link": ""
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Download_on_the_App_Store_Badge.png",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "NQRAA “CREATIVE CLICK”",
+        "logo": "https://nqraa.com/wp-content/uploads/2020/12/creative-click-logo-ok-2.png",
+        "link": "https://nqraa.com/en/home-page/",
+        "position": "Mobile Developer",
+        "from": "Jan 2021",
+        "to": "Jul 2021",
+        "overview": "Creative Click was founded in Riyadh in 2016, providing a plethora of software services, including the design and implementation of different software applications. Creative click’s profile is the rife yet deliberate file in information technology, application workflows, and other technical services, which cover’s many sectors such as, education, government, private and medical sectors.",
+        "projects": [
+            {
+                "title": "Saudi Tech",
+                "image": "https://nqraa.com/wp-content/uploads/2020/12/44-3.jpg",
+                "overview": "Contributed as mid-senior react-native developer on the project of saudi tech QMS of Al-Madina Al-Monawara",
+                "links": [
+                    {
+                        "image": "https://nqraa.com/wp-content/uploads/2020/12/44-3.jpg",
+                        "link": "https://nqraa.com/en/home-page/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "ALMHAILY LAWYER",
+        "logo": "https://nqraa.com/wp-content/uploads/2020/12/creative-click-logo-ok-2.png",
+        "link": "https://nqraa.com/en/home-page/",
+        "position": "Mobile Developer",
         "from": "",
         "to": "",
-        "overview": "",
-        "links": [{ "title": "", "type": "", "link": "" }],
+        "overview": "Freelancing project for KSA lawyer office.",
         "projects": [
             {
                 "title": "",
-                "logo": "",
+                "image": "",
                 "overview": "",
-                "links": [{ "title": "", "type": "", "link": "" }],
-                "languages": [{ "title": "", "image": "" }]
+                "links": [
+                    {
+                        "image": "",
+                        "link": ""
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Google_Play_Store_badge_EN.png",
+                        "link": ""
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Download_on_the_App_Store_Badge.png",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "ALMHAILY LAWYER",
+        "logo": "https://nqraa.com/wp-content/uploads/2020/12/creative-click-logo-ok-2.png",
+        "link": "https://nqraa.com/en/home-page/",
+        "position": "Mobile Developer",
+        "from": "",
+        "to": "",
+        "overview": "",
+        "projects": [
+            {
+                "title": "",
+                "image": "",
+                "overview": "",
+                "links": [
+                    {
+                        "image": "",
+                        "link": ""
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Google_Play_Store_badge_EN.png",
+                        "link": ""
+                    },
+                    {
+                        "image": "https://www.vcliniq.app/landigPage/Download_on_the_App_Store_Badge.png",
+                        "link": ""
+                    }
+                ]
             }
         ]
     }
