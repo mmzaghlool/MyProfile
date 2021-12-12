@@ -1,9 +1,14 @@
 nav {
+    margin-bottom: 1em;
+    padding: 1.2em;
+    /* align-items: center; */
+    background-color: #333;
+}
+.nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
-    padding-bottom: 10px;
-    /* border-bottom: 1px solid #ddd; */
+    max-width: 1200px;
+    margin: auto;
     text-transform: uppercase;
 }
 nav ul {
@@ -20,7 +25,7 @@ nav h1 {
 }
 nav p,
 nav a {
-    color: #333;
+    color: #fff;
     font-weight: 300;
 }
 .title a {
@@ -45,4 +50,5 @@ h3 {
 
 .active {
     font-weight: bold;
+    font-size: 1.1em;
 }

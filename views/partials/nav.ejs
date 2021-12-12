@@ -1,11 +1,14 @@
 <nav>
-    <div class="title">
-        <a href="/">Mostafa Mahmoud</a>
+    <div class="nav">
+
+        <div class="title">
+            <a href="/">Mostafa Mahmoud</a>
+        </div>
+        <ul>
+            <li><a class=<%= activePage === "/" && "active"%> href="/">Home</a></li>
+            <li><a class=<%= activePage === "/about" && "active"%> href="/about">About</a></li>
+            <li><a class=<%= activePage === "/work" && "active"%> href="/work">Work</a></li>
+            <li><a class=<%= activePage === "/packages" && "active"%> href="/packages">Packages</a></li>
+        </ul>
     </div>
-    <ul>
-        <li><a class=<%= activePage === "/" && "active"%> href="/">Home</a></li>
-        <li><a class=<%= activePage === "/about" && "active"%> href="/about">About</a></li>
-        <li><a class=<%= activePage === "/work" && "active"%> href="/work">Work</a></li>
-        <li><a class=<%= activePage === "/packages" && "active"%> href="/packages">Packages</a></li>
-    </ul>
 </nav>

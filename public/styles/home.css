@@ -30,7 +30,7 @@
 .contacts {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 1em;
 }
 
@@ -48,8 +48,12 @@
 .first-right h3 {
     color: #333;
     font-size: 1.5em;
-    margin: 1em 0 0.5em;
+    margin: 0 0 0.5em;
     text-transform: uppercase;
+}
+
+.first-right p {
+    margin-bottom: 1em;
 }
 
 .lang-image {

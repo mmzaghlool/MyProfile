@@ -7,36 +7,37 @@
     <body>
         <%- include("../partials/nav.ejs", {activePage}) %>
 
-        <!-- First section -->
-        <div class="first">
-            <!-- Left section -->
-            <div class="first-left">
-                <img src="https://avatars.githubusercontent.com/u/25058369?v=4" />
-                <h1><%= profile.name %></h1>
-                <h2><%= profile.title %></h2>
-                
-                <!-- Contacts -->
-                <div class="contacts">
-                    <% contacts.forEach(element => { %>
-                    <a href=<%=element.link %> target="_blank" > 
-                        <img src=<%=element.image %> alt=<%=element.title %> /> 
-                    </a>
+        <div class="body">
+            <!-- First section -->
+            <div class="first">
+                <!-- Left section -->
+                <div class="first-left">
+                    <img src="https://avatars.githubusercontent.com/u/25058369?v=4" />
+                    <h1><%= profile.name %></h1>
+                    <h2><%= profile.title %></h2>
+                    
+                    <!-- Contacts -->
+                    <div class="contacts">
+                        <% contacts.forEach(element => { %>
+                        <a href=<%=element.link %> target="_blank" > 
+                            <img src=<%=element.image %> alt=<%=element.title %> /> 
+                        </a>
+                        <% }) %>
+                    </div>
+                </div>
+
+                <div class="first-right">
+                    <h3>Biography</h3>
+                    <p><%- profile.overview %></p>
+                    
+                    <!-- <hr /> -->
+                    <h3>LANGUAGES and TOOLS</h3>
+                    <% profile.languages.forEach(element => { %>
+                        <img class="lang-image" src=<%=element.image %> alt=<%=element.title %> /> 
                     <% }) %>
                 </div>
             </div>
-
-            <div class="first-right">
-                <h3>Biography</h3>
-                <p><%- profile.overview %></p>
-                
-                <!-- <hr /> -->
-                <h3>LANGUAGES and TOOLS</h3>
-                <% profile.languages.forEach(element => { %>
-                    <img class="lang-image" src=<%=element.image %> alt=<%=element.title %> /> 
-                <% }) %>
-            </div>
         </div>
-
         <%- include("../partials/footer.ejs") %>
     </body>
 </html>
