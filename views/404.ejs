@@ -1,5 +1,5 @@
 <!-- Template variables -->
-<% const title = 'Page Not Found' %> <% const style = '/styles/nav.css' %><% const activePage = '/404' %>
+<% const title = 'Page Not Found' %> <% const style = '/styles/404.css' %><% const activePage = '/404' %>
 
 <html lang="en">
     <%- include("./partials/head.ejs", {title, style}) %>
@@ -7,8 +7,10 @@
     <body>
         <%- include("./partials/nav.ejs",{activePage}) %>
 
-        <div class="not-found content">OOPS, page not found :)</div>
-
-        <%- include("./partials/footer.ejs") %>
+        <div class="body">
+            <h1 class="404">404</h1>
+            <h2 class="404">Oooops!</h2>
+            <h3 class="404">THAT PAGE DOSE NOT EXIST OR UNAVAILABLE</h3>
+        </div>
     </body>
 </html>
